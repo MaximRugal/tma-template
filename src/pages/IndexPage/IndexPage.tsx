@@ -4,7 +4,7 @@ import { Container } from '@mui/material';
 
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import { ArrowForwardIos } from '@mui/icons-material';
-import { Link, useNavigate } from 'react-router-dom';
+import { useNavigate } from 'react-router-dom';
 import card from './card.png';
 
 import './IndexPage.css';
