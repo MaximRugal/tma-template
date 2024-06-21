@@ -4,16 +4,24 @@ import { Container } from '@mui/material';
 
 import ArrowBackIosIcon from '@mui/icons-material/ArrowBackIos';
 import { ArrowForwardIos } from '@mui/icons-material';
-
+import { Link, useNavigate } from 'react-router-dom';
 import card from './card.png';
 
 import './IndexPage.css';
 export const IndexPage: FC = () => {
+  const navigate = useNavigate();
+
   return (
     <>
       <Container className='pageWrapper'>
         <div className='mainNavbar'>
-          <Button variant='contained' startIcon={<ArrowBackIosIcon />} color='primary' size='medium'></Button>
+          <Button
+            variant='contained'
+            startIcon={<ArrowBackIosIcon />}
+            color='primary'
+            size='medium'
+            onClick={() => navigate(-1)}
+          ></Button>
         </div>
         <div className='cardWrapper'>
           <img src={card} className='cardIcon' />
@@ -39,18 +47,21 @@ export const IndexPage: FC = () => {
       <Container>
         <div className='buttonsNavbar'>
           <Button variant='text' endIcon={<ArrowForwardIos />} color='primary' size='medium'>
-            {' '}
-            CARD DETAILS{' '}
+            CARD DETAILS
+          </Button>
+
+          <Button
+            variant='text'
+            endIcon={<ArrowForwardIos />}
+            color='primary'
+            size='medium'
+            onClick={() => navigate('/cardActions')}
+          >
+            ACTIONS
           </Button>
 
           <Button variant='text' endIcon={<ArrowForwardIos />} color='primary' size='medium'>
-            {' '}
-            ACTIONS{' '}
-          </Button>
-
-          <Button variant='text' endIcon={<ArrowForwardIos />} color='primary' size='medium'>
-            {' '}
-            TRANSACTIONS{' '}
+            TRANSACTIONS
           </Button>
         </div>
       </Container>
