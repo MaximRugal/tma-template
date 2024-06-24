@@ -1,6 +1,6 @@
 import type { FC } from 'react';
 import card from './card.png';
-
+import './CardInfoBlock.css';
 export const CardInfoBlock: FC = () => {
   return (
     <>
