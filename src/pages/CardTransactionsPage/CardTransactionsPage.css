@@ -1,0 +1,65 @@
+.index-page__links {
+  list-style: none;
+  padding-left: 0;
+}
+
+.index-page__link {
+  font-weight: bold;
+  display: inline-flex;
+  gap: 5px;
+}
+
+.index-page__link-item + .index-page__link-item {
+  margin-top: 10px;
+}
+
+.index-page__link-icon {
+  width: 20px;
+  display: block;
+}
+
+.index-page__link-icon svg {
+  display: block;
+}
+.cardWrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.cardIcon {
+  margin: 10px;
+}
+.cardDataWrapper {
+  display: flex;
+  justify-content: space-around;
+  width: 100%;
+}
+.mainNavbar {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+.cardInfoWrapper {
+  display: flex;
+}
+.cardInfo {
+  padding: 10px;
+}
+.buttonsNavbar {
+  display: flex;
+  flex-direction: column;
+}
+.buttonsNavbar2 {
+  display: flex;
+  flex-direction: column;
+}
+
+.mainNavbar {
+  display: flex;
+}
+
+.pageWrapper {
+  max-width: 100%;
+  height: auto;
+}
