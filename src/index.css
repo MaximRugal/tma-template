@@ -4,10 +4,8 @@
   font-weight: 400;
   max-width: 390px;
 
-  color-scheme: light dark;
   color: black;
   background-color: white;
-
   font-synthesis: none;
   text-rendering: optimizeLegibility;
   -webkit-font-smoothing: antialiased;
@@ -55,7 +53,7 @@ button:focus-visible {
   outline: 4px auto -webkit-focus-ring-color;
 } */
 
-@media (prefers-color-scheme: light) {
+/* @media (prefers-color-scheme: light) {
   :root {
     color: black;
     background-color: #ffffff;
@@ -66,7 +64,7 @@ button:focus-visible {
   button {
     background-color: #f9f9f9;
   }
-}
+} */
 .cardDataWrapper {
   color: black;
 }
