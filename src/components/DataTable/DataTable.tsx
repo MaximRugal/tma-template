@@ -2,13 +2,13 @@ import { DataGrid, GridColDef } from '@mui/x-data-grid';
 
 const columns: GridColDef[] = [
   { field: 'date', headerName: 'Date', width: 90 },
-  { field: 'type', headerName: 'Type', width: 100 },
+  { field: 'type', headerName: 'Type', width: 90 },
   { field: 'status', headerName: 'Status', width: 90 },
   {
     field: 'amount',
     headerName: 'Amount',
     type: 'number',
-    width: 90,
+    width: 70,
   },
 ];
 
