@@ -14,6 +14,19 @@ export const IndexPage: FC = () => {
           <NavigateBackButton />
         </div>
         <CardInfoBlock />
+        <div className='cardInfoWrapper'>
+          <div className='cardInfo'>
+            <p className='cardData'>Card : ✔️Active</p>
+            <p className='cardData'>CLIENT: CRN</p>
+            <p className='cardData'>BIN: DC8-3V</p>
+            <p className='cardData'>TG: 6789655</p>
+          </div>
+          <div className='cardInfo'>
+            <p className='cardData'>Balance : $9000.00</p>
+            <p className='cardData'>Mast : $9000.00</p>
+            <p className='cardData'>TOK: 12345F78</p>
+          </div>
+        </div>
       </Container>
       <Container>
         <div className='buttonsNavbar'>
