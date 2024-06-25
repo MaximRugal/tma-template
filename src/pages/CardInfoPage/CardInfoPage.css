@@ -42,6 +42,8 @@
 }
 .cardInfoWrapper {
   display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .cardInfo {
   padding: 10px;
