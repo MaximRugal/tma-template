@@ -7,8 +7,8 @@ export const CardInfoBlock: FC = () => {
       <div className='cardWrapper'>
         <img src={card} className='cardIcon' />
         <div className='cardDataWrapper'>
-          <p className='cardData'>4321*********3751</p>
-          <p className='cardData'>04/26</p>
+          <p className='cardData'>0123*********2345</p>
+          <p className='cardData'>01/29</p>
         </div>
       </div>
     </>
